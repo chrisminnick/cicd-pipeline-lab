@@ -1,0 +1,20 @@
+{
+  "name": "techstart-api",
+  "version": "1.0.0",
+  "description": "TechStart E-commerce API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
